@@ -1,3 +1,5 @@
+# This project is migrated from my old github account and no longer maintained.
+
 # SPEAR - Simple, P2P, Encrypted And Real-Time
 
 Spear is a VoIP program that doesn’t require any central server. It uses a CUI interface so you can run it on a terminal or even tty if you want. Packets are encrypted using ChaCha20Poly1305 and shared secrets are generated using a pre-shared public key from a peer and the user’s own secret, specified in a config file.
@@ -23,7 +25,7 @@ name = Friend 1 #optional
 
 # How to build
 ```
-go build -o spear github.com/hexdiract/spear/frontend
+go build -o spear github.com/octeep/spear/frontend
 ```
 
 # TODO:
